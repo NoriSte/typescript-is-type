@@ -10,6 +10,11 @@ This simple one-function package allows you to perform both TypeScript-safe and 
 
 If one of the keys to be checked is `undefined` than the check doesn't pass (it's not based on `hasOwnProperty`).
 
+```bash
+# isntall it with
+npm install --save-dev typescript-is-type
+```
+
 ```typescript
 is<string>("Hello world", "length"); // true
 is<string>("Hello world", "concat"); // TS compile error, "concat" isn't a key of string
