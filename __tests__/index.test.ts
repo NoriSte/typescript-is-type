@@ -81,5 +81,12 @@ describe('Should work with TS types', () => {
     it("A partial check should generate a false positive check", () => {
       expect(is<ElectricCar>(JSON.parse(JSON.stringify(mustang)), "power")).toBe(true);
     });
+    it("It's based on 'undefined' checks, not on 'hasOwnProperty'", () => {
+      expect(is<ElectricCar>({
+        battery: 100,
+        power: 700,
+        singlePedalDrive: undefined
+      }, "singlePedalDrive")).toBe(false);
+    });
   });
 });
