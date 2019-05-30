@@ -1,6 +1,6 @@
 {
   "name": "typescript-is-type",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Typescript-safe runtime type check function",
   "main": "index.js",
   "types": "index.d.ts",
