@@ -4,6 +4,7 @@ A TypeScript-safe runtime type check function
 [![Build Status](https://travis-ci.com/NoriSte/typescript-is-type.svg?branch=master)](https://travis-ci.com/NoriSte/typescript-is-type)
 [![Build Cron](https://img.shields.io/badge/build%20cron-weekly-44cc11.svg)](https://travis-ci.com/NoriSte/typescript-is-type)
 [![Coverage Status](https://coveralls.io/repos/github/NoriSte/typescript-is-type/badge.svg)](https://coveralls.io/github/NoriSte/typescript-is-type)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
 [![TypeScript](https://badges.frapsoft.com/typescript/love/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
 Network requests responses or JSON based data doesn't allow TypeScript to perform compile-time checks. You can cast the response but it doesn't give you the confidence that the data is an instance of the desired type.
