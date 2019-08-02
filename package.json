@@ -19,6 +19,7 @@
     "@stryker-mutator/jest-runner": "^2.0.2"
   },
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest && npx stryker run ",
+    "test:watch": "jest --watch"
   }
 }
