@@ -14,7 +14,7 @@ module.exports = {
     }
 
     for(let i = 0, n = keys.length; i < n; i++) {
-      if(instance[keys[0]] === undefined) {
+      if(instance[keys[i]] === undefined) {
         return false;
       }
     }
