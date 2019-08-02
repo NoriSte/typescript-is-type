@@ -361,7 +361,7 @@
     mutation-testing-report-schema "^1.0.0"
     tslib "~1.10.0"
 
-"@stryker-mutator/core@^2.0.2":
+"@stryker-mutator/core@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-2.0.2.tgz#3dbfa4dd114c3c98918fe6373d81968ff3d3978a"
   integrity sha512-NtBsdCc+btduV9/20XjZ7ijnH/R/pBKoIcp2G+r7m9KxoEHh3tR8pKJV6a/ZmUJPbVQH37NNUVZOPWOUk7fE4A==
@@ -388,7 +388,7 @@
     typed-inject "~2.0.0"
     typed-rest-client "~1.5.0"
 
-"@stryker-mutator/html-reporter@^2.0.2":
+"@stryker-mutator/html-reporter@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/html-reporter/-/html-reporter-2.0.2.tgz#fb829d12d1cd820da6e8b99fd4c0e942de681bbc"
   integrity sha512-YMgRaA9DMvWw4Up2Bcs7tmudI/C5JZp/xpoRsWVeuwH5lGtsDStyy+j78a3T1qrQvXnCq7FC8VusjPDu/5d5Lg==
@@ -400,7 +400,7 @@
     mutation-testing-elements "^1.0.2"
     rimraf "~2.6.1"
 
-"@stryker-mutator/javascript-mutator@^2.0.2":
+"@stryker-mutator/javascript-mutator@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/javascript-mutator/-/javascript-mutator-2.0.2.tgz#47b4686b44be2b851991e9718599618dca2af4a6"
   integrity sha512-Uq/8Ses0oqOB++YxeeU/lPr6Mjw/DeLL4t5Lv8evCLuQi9MgGre3sgAmhIpwLZR62cOSa19qZKTVK2IUWFkF8g==
@@ -412,7 +412,7 @@
     lodash "~4.17.4"
     tslib "~1.10.0"
 
-"@stryker-mutator/jest-runner@^2.0.2":
+"@stryker-mutator/jest-runner@2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-2.0.2.tgz#869394f093d043c5523a027f05a377f6e4133911"
   integrity sha512-3AIEqt9bD7gl3TqfSaVawbpuVjdBKt32I2u4+RY20/PuoDD11QF03ME0ixuN5HYZh2H2CIh142w3DY5EV4+jhw==
