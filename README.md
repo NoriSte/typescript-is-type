@@ -1,4 +1,5 @@
 # typescript-is-type
+
 A TypeScript-safe runtime type check function
 
 [![Build Status](https://travis-ci.com/NoriSte/typescript-is-type.svg?branch=master)](https://travis-ci.com/NoriSte/typescript-is-type)
@@ -6,6 +7,7 @@ A TypeScript-safe runtime type check function
 [![Coverage Status](https://coveralls.io/repos/github/NoriSte/typescript-is-type/badge.svg)](https://coveralls.io/github/NoriSte/typescript-is-type)
 [![Mutation testing badge](https://badge.stryker-mutator.io/github.com/NoriSte/typescript-is-type/master)](https://stryker-mutator.github.io)
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/)
+[![Maintainability](https://api.codeclimate.com/v1/badges/a6ff58769fe0c4a9e8b9/maintainability)](https://codeclimate.com/github/NoriSte/typescript-is-type/maintainability)
 [![TypeScript](https://badges.frapsoft.com/typescript/love/typescript.svg?v=101)](https://github.com/ellerbrock/typescript-badges/)
 
 Network requests responses or JSON based data doesn't allow TypeScript to perform compile-time checks. You can cast the response but it doesn't give you the confidence that the data is an instance of the desired type.
@@ -26,34 +28,40 @@ is<string>(JSON.parse(JSON.stringify("Hello world")), "length"); // true
 ```
 
 That's the function signature
+
 ```typescript
-function is<Type>(instance: any, keys: keyof Type|(keyof Type)[]): instance is Type
+function is<Type>(instance: any, keys: keyof Type | (keyof Type)[]): instance is Type;
 ```
 
 A more explanatory example
 
 ```typescript
-import { is } from 'typescript-is-type';
+import { is } from "typescript-is-type";
 
 interface Car {
-  power: number
+  power: number;
 }
 interface FuelCar extends Car {
-  tank:number
+  tank: number;
 }
 interface ElectricCar extends Car {
-  battery:number
-  singlePedalDrive: boolean
+  battery: number;
+  singlePedalDrive: boolean;
 }
 
-is<ElectricCar>(JSON.parse(JSON.stringify({
-  power: 450,
-  tank: 60
-})), "battery") // false
-
+is<ElectricCar>(
+  JSON.parse(
+    JSON.stringify({
+      power: 450,
+      tank: 60
+    })
+  ),
+  "battery"
+); // false
 ```
 
 Remember that it's up to you to decide the keys to be checked to avoid every false positive/negative.
+
 ```typescript
 is<ElectricCar>({
   power: 450,
