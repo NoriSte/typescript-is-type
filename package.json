@@ -11,7 +11,7 @@
     "@types/jest": "25.2.2",
     "coveralls": "3.1.0",
     "jest": "26.0.1",
-    "ts-jest": "25.5.1",
+    "ts-jest": "26.0.0",
     "typescript": "3.9.2",
     "@stryker-mutator/core": "3.2.3",
     "@stryker-mutator/html-reporter": "3.1.0",
