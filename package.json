@@ -13,10 +13,10 @@
     "jest": "26.0.1",
     "ts-jest": "26.1.0",
     "typescript": "3.9.5",
-    "@stryker-mutator/core": "3.2.4",
+    "@stryker-mutator/core": "3.3.0",
     "@stryker-mutator/html-reporter": "3.1.0",
-    "@stryker-mutator/javascript-mutator": "3.2.4",
-    "@stryker-mutator/jest-runner": "3.2.4"
+    "@stryker-mutator/javascript-mutator": "3.3.0",
+    "@stryker-mutator/jest-runner": "3.3.0"
   },
   "scripts": {
     "test": "jest && npx stryker run ",
