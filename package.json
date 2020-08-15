@@ -8,7 +8,7 @@
   "author": "Stefano Magni <nori.ste.magni@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "@types/jest": "26.0.9",
+    "@types/jest": "26.0.10",
     "coveralls": "3.1.0",
     "jest": "26.4.0",
     "ts-jest": "26.2.0",
