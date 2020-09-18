@@ -12,7 +12,7 @@
     "coveralls": "3.1.0",
     "jest": "26.4.2",
     "ts-jest": "26.3.0",
-    "typescript": "4.0.2",
+    "typescript": "4.0.3",
     "@stryker-mutator/core": "3.3.1",
     "@stryker-mutator/html-reporter": "3.1.0",
     "@stryker-mutator/javascript-mutator": "3.3.1",
